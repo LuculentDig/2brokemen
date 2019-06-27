@@ -1,12 +1,13 @@
 import React, { Component} from 'react'
-import {Jumbotron, Button} from 'react-bootstrap'
-import pic from '../img/rich1.jpg';
+// import {Jumbotron, Button} from 'react-bootstrap'
+// import pic from '../img/rich1.jpg';
 
 export default class home extends Component {
     render() {
         return (
     
         <div>
+            Home
             {/* <Jumbotron>
                 <h1>Not sure how to spend your money?</h1>
                 <p>
