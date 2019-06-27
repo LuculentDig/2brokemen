@@ -7,19 +7,9 @@ import Home from './pages/home'
 function App() {
   return (
     <div>
-      TEsing different stuff
-        <Router>
-          <div>
+      Keeps Navigation, remove router
+      <Navigation/>
 
-          {/* <Navigation/> */}
-
-          {/* <Switch> */}
-            {/* <Route exact path="/" component={Home}/> */}
-
-          {/* </Switch> */}
-          
-        </div>
-      </Router>
     </div>
   );
 }
