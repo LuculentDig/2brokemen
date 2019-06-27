@@ -8,7 +8,18 @@ function App() {
   return (
     <div>
       TEsing different stuff
+        <Router>
+          <div>
 
+          {/* <Navigation/> */}
+
+          {/* <Switch> */}
+            <Route exact path="/" component={Home}/>
+
+          {/* </Switch> */}
+          
+        </div>
+      </Router>
     </div>
   );
 }
