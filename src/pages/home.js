@@ -1,14 +1,13 @@
 import React, { Component} from 'react'
-// import {Jumbotron, Button} from 'react-bootstrap'
-// import pic from '../img/rich1.jpg';
+import {Jumbotron, Button} from 'react-bootstrap'
+import pic from '../img/rich1.jpg';
 
 export default class home extends Component {
     render() {
         return (
     
         <div>
-            Home
-            {/* <Jumbotron>
+            <Jumbotron>
                 <h1>Not sure how to spend your money?</h1>
                 <p>
                     We are two recent graudates from the best College in the World. During our times in school we
@@ -25,7 +24,7 @@ export default class home extends Component {
                     src={require('../img/rich1.jpg')}
                     alt="Third slide"
                 />
-            </Jumbotron> */}
+            </Jumbotron>
 
         </div>
 
