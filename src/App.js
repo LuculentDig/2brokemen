@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+
 import Navigation from './pages/Navigation'
 import Home from './pages/home'
 
+
 function App() {
   return (
+      <Router>
+      <div>
+
       <Navigation/>
-      <Home/>
 
-      //   <Router>
-      //     <div>
+      {/* <Switch> */}
+        <Route exact path="/" component={Home}/>
 
-      //     <Navigation/>
-
-      //     {/* <Switch> */}
-      //       <Route exact path="/" component={Home}/>
-
-      //     {/* </Switch> */}
-          
-      //   </div>
-      // </Router>
+      {/* </Switch> */}
+      
+    </div>
+  </Router>
   );
 }
 
