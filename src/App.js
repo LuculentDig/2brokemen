@@ -6,21 +6,18 @@ import Home from './pages/home'
 
 function App() {
   return (
-      // <Navigation/>
-      <Home/>
+    <Router>
+    <div>
 
-      //   <Router>
-      //     <div>
+    <Navigation/>
 
-      //     <Navigation/>
+    {/* <Switch> */}
+      <Route exact path="/" component={Home}/>
 
-      //     {/* <Switch> */}
-      //       <Route exact path="/" component={Home}/>
-
-      //     {/* </Switch> */}
-          
-      //   </div>
-      // </Router>
+    {/* </Switch> */}
+    
+  </div>
+</Router>
   );
 }
 
