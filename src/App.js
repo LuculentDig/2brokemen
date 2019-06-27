@@ -7,7 +7,7 @@ import Home from './pages/home'
 function App() {
   return (
       <Navigation/>
-      // <Home/>
+      <Home/>
 
       //   <Router>
       //     <div>
