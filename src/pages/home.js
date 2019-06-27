@@ -7,8 +7,8 @@ export default class home extends Component {
         return (
     
         <div>
-            <Jumbotron>
-                {/* <h1>Not sure how to spend your money?</h1>
+            {/* <Jumbotron>
+                <h1>Not sure how to spend your money?</h1>
                 <p>
                     We are two recent graudates from the best College in the World. During our times in school we
                     discovered that most college students have horrible financial managements. To put it simple: They don't know how to spend money!    
@@ -23,8 +23,8 @@ export default class home extends Component {
                     className="d-block w-50"
                     src={require('../img/rich1.jpg')}
                     alt="Third slide"
-                /> */}
-            </Jumbotron>
+                />
+            </Jumbotron> */}
 
         </div>
 
